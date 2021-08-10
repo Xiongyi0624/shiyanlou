@@ -1,0 +1,14 @@
+# 常用命令
+  git --version   # 查看当前git版本
+  git clone [仓库地址]    # 将GitHub上的仓库克隆到本地
+  git remote -v   # 查看本地仓库所关联的远程仓库信息
+  git status      # 查看本地仓库的状态（常用）
+  git add [文件名]   # 将增删改的文件添加到暂存区，add后面跟“.”表示添加所有文件
+  git reset -- [文件名]    # 撤销暂存区的修改，省略文件名表示全部撤销
+  git rm --cached [文件名]   # 同上
+  git diff    # 可以查看工作区和被跟踪的文件的修改详情，按q退出
+  git log     # 查看版本区的提交记录
+  git commit -m "message"  # 将暂存区的修改记录提交到版本区，message是本次提交的备注
+  git branch -avv   # 查看全部分支信息
+  
+  
